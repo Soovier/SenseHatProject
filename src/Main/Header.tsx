@@ -8,6 +8,9 @@ const Header = () => {
         <div className="font-bold text-2xl">
           By: Stephen, Alex, Gavin, Aley, Erik
         </div>
+        <button className="scroll-m-20 border-b pb-1 text-3xl font-bold tracking-tight first:mt-0">
+          Reports
+        </button>
       </div>
     </div>
   );
