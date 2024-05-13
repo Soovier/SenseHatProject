@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
+// import App from "./App";
 import ReportPage from "./ReportPage";
+import SensorPage from "./SensorPage";
 
 const root = createBrowserRouter([
-  { path: "/", element: <App /> },
+  { path: "/", element: <SensorPage /> },
 
   { path: "/reports", element: <ReportPage /> },
   { path: "*", element: "Not Found, Sorry Try Again" },
