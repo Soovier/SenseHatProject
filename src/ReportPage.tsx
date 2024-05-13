@@ -1,5 +1,5 @@
 import Header from "./Main/Header";
-import f0 from "../reports/Final[0].jpg";
+// import f0 from "../reports/Final[0].jpg";
 import f1 from "../reports/Final[1].jpg";
 import f2 from "../reports/Final[2].jpg";
 import f3 from "../reports/Final[3].jpg";
