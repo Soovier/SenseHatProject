@@ -12,6 +12,7 @@ import v3 from "../reports/v3.jpg";
 import v4 from "../reports/v4.jpg";
 import v5 from "../reports/v5.jpg";
 import v6 from "../reports/v6.jpg";
+import v7 from "../reports/v7.png";
 
 const ReportPage = () => {
   return (
@@ -60,11 +61,19 @@ const ReportPage = () => {
         src={v1}
       />
       <h1 className="mb-2 p-2 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-        Weekly Progress Report | Date: 4/20/2024
+        Weekly Progress Report | Date: 4/27/2024
       </h1>{" "}
       <img
         className="transition-all duration-700 ease-in-out hover:scale-105 rounded-xl hover:border-4 border-green-500 p-2 w-[30%]"
         src={v2}
+      />
+      <h1 className="mb-2 p-2 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+        Weekly Progress Report | Date: 4/20/2024
+      </h1>{" "}
+      <img
+        className="transition-all duration-700 ease-in-out hover:scale-105 rounded-xl hover:border-4 border-green-500 w-[30%]"
+        src={v7}
+        alt="4/20/2024"
       />
       <h1 className="mb-2 p-2 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
         Weekly Progress Report | Date: 4/06/2024
