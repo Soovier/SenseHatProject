@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import berryPic from "../reports/berry.png";
 
 const Intro = () => {
   return (
@@ -6,6 +7,7 @@ const Intro = () => {
       <h1 className="transition-all duration-700 ease-in-out flex-start scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
         Digital Detectives Tempeture Raspberry PI Project
       </h1>
+      <img className="w-1/12" src={berryPic} alt="Berry Pictures" />
       <h2 className="transition-all duration-700 ease-in-out scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
         Stephen, Alex, Aley, Erick, Gavin
       </h2>
