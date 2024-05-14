@@ -13,13 +13,14 @@ import v4 from "../reports/v4.jpg";
 import v5 from "../reports/v5.jpg";
 import v6 from "../reports/v6.jpg";
 import v7 from "../reports/v7.png";
+import v8 from "../reports/v8.png";
 
 const ReportPage = () => {
   return (
-    <div className="flex flex-col w-full h-full m-auto">
+    <div className="flex flex-col justify-center items-center   w-full h-full m-auto">
       <Header />
       <h1 className="mb-2 p-2 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-        Final Paper | (From Left To Right) | Date: 5/11
+        Final Paper | (From Left To Right)
       </h1>{" "}
       <div className="flex flex-wrap gap-2 w-full h-100% p-2">
         <img
@@ -53,6 +54,14 @@ const ReportPage = () => {
           alt=""
         ></img>
       </div>
+      <h1 className="mb-2 p-2 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+        Weekly Progress Report | Date: 5/11/2024
+      </h1>{" "}
+      <img
+        className="transition-all duration-700 ease-in-out hover:scale-105 rounded-xl hover:border-4 border-green-500 p-2 w-[30%]"
+        src={v8}
+        alt="5/11/2024 report here"
+      />
       <h1 className="mb-2 p-2 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
         Weekly Progress Report | Date: 5/04/2024
       </h1>{" "}
